@@ -4,9 +4,9 @@ import React from 'react'
 
 function Profile() {
   return (
-    <main className='m bg-red-400 h-full '>
-        <Navbar/>
-        <div className='m-2 mt-16 p-2 flex gap-4 flex-wrap  order-last'>
+    <main className='h-full bg-white'>
+        
+        <div className='md:m-2 md:mt-6  pt-4 md:p-2 p-1 flex gap-4 flex-wrap  order-last'>
                 <Aspirants/>
                 <Aspirants/>
                 <Aspirants/>
