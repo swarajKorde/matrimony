@@ -12,6 +12,9 @@ function Navbar() {
           </Link>
         </li>
         <li>
+          <Link className='' href="/profile">Profile</Link>
+        </li>
+        <li>
           <Link className="hover:text-blue-500" href="/login">
             Login
           </Link>
