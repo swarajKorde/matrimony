@@ -6,10 +6,10 @@ import React, { useEffect } from 'react'
 
 function Signup() {
 
-     useEffect(() => {
-    // Code that uses window goes here
-    window.alert('Site is in development phase')
-  }, [])
+    // useEffect(() => {
+    //     // Code that uses window goes here
+    //     window.alert('Site is in development phase')
+    // }, [])
 
     return (
         <>
@@ -17,7 +17,7 @@ function Signup() {
             <div className='md:m-4 md:mt-2 md:p-4 bg-white text-black'>
                 {/* main division */}
 
-                <div className='flex flex-col md:flex-row md:justify-between  items-center'>
+                <div className='flex flex-col md:flex-ro  items-center'>
                     {/* horrizontal line of logo and already a member */}
                     {/* <img className='mt-2' src="https://imgs.bharatmatrimony.com/bmimgs/bharatmatrimony-logo.png" alt="" /> */}
                     <div className=''>
@@ -26,10 +26,7 @@ function Signup() {
                         <h5 className='self-center text-xs'>FIND YOUR MATCH</h5>
                     </div>
 
-                    <div className='flex space-x-2'>
-                        <h4>Already a member</h4>
-                        <Link href='/login'>Login</Link>
-                    </div>
+                 
 
                 </div>
 
@@ -39,8 +36,13 @@ function Signup() {
 
                     <div className='flex flex-col p-8 md:p-10 w-full space-y-2 md:w-1/2 bg-slate-300 md:shadow- md:shadow-red-500 shadow'>
 
-                        <h1 className='md:text-3xl md:visible hidden font-bold self-center'>Sign Up || Get Started</h1>
+                        <h1 className='md:text-3xl hidden md:block  font-bold self-center'>Sign Up || Get Started</h1>
                         {/* div of form */}
+                        <hr />
+                        <div className='flex space-x-2 self-center'>
+                            <h4>Already a member =</h4>
+                            <Link href='/login'>Login</Link> 
+                        </div>
                         <label htmlFor="">Name</label>
                         <input className=' rounded-md p-2' type="text" />
 

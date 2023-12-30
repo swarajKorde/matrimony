@@ -1,0 +1,17 @@
+{
+    "rajiv":{
+        "age":"21",
+        "photo":"https://media.istockphoto.com/id/1056445786/photo/serious-young-man-headshot.jpg?s=612x612&w=0&k=20&c=rHdF_IyORKxLspb2WngEnl3_-R6Mm4eaWEYFjs9qRLA=",
+        "education":"rajiv masand uni"
+    },
+    "vasant":{
+        "age":"50",
+        "photo":"https://media.istockphoto.com/id/1056445786/photo/serious-young-man-headshot.jpg?s=612x612&w=0&k=20&c=rHdF_IyORKxLspb2WngEnl3_-R6Mm4eaWEYFjs9qRLA=",
+        "education":"rajiv masand uni"
+    },
+    "abhisekh":{
+        "age":"75",
+        "photo":"https://media.istockphoto.com/id/1056445786/photo/serious-young-man-headshot.jpg?s=612x612&w=0&k=20&c=rHdF_IyORKxLspb2WngEnl3_-R6Mm4eaWEYFjs9qRLA=",
+        "education":"rajiv masand uni"
+    }
+}
